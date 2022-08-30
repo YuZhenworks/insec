@@ -14538,8 +14538,16 @@ img {
 .buff-card .buff-card-main {
   position: absolute;
   z-index: -1;
-  width: 370px;
-  height: 350px;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .buff-card .buff-card-main {
+    position: absolute;
+    z-index: -1;
+    width: 370px;
+    height: 350px;
+  }
 }
 
 .buff-card .Mealworms-top {
