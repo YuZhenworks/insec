@@ -13657,6 +13657,9 @@ fieldset:disabled .btn {
 body {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
+}
+
+body, html {
   overflow-x: hidden;
 }
 
