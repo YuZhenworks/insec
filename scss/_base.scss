@@ -2,11 +2,8 @@
 body {
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+    overflow-x: hidden;
     // cursor: none;
-}
-
-body, html {
-     overflow-x: hidden;
 }
 
 sub, sup {

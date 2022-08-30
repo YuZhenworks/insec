@@ -13657,9 +13657,6 @@ fieldset:disabled .btn {
 body {
   font-family: 'Oswald', sans-serif;
   font-weight: bold;
-}
-
-body, html {
   overflow-x: hidden;
 }
 
@@ -14110,6 +14107,7 @@ img {
   .team .team-title {
     font-size: 6.25rem;
     padding-left: 2rem;
+    top: -40px;
   }
 }
 
