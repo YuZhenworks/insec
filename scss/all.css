@@ -14416,10 +14416,10 @@ img {
   background-image: url(../images/story_images/螞蟻.png);
   background-size: contain;
   background-repeat: no-repeat;
-  width: 448px;
+  width: 200px;
   height: 312px;
-  top: calc( 100vh - 400px);
-  left: 40%;
+  top: calc( 100vh - 500px);
+  right: 0;
   z-index: -1;
 }
 
