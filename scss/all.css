@@ -14012,9 +14012,22 @@ img {
 
 @media (max-width: 767.98px) {
   .p-content .product-title {
-    top: -160px;
-    left: -550px;
-    font-size: 6.25rem;
+    display: none;
+  }
+}
+
+.p-content .product-title2 {
+  display: none;
+  font-size: 10rem;
+  font-weight: bold;
+  color: #d0d0d0a6;
+}
+
+@media (max-width: 767.98px) {
+  .p-content .product-title2 {
+    display: block;
+    font-size: 5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -14084,15 +14097,13 @@ img {
 }
 
 .team .team-bg {
+  width: 100%;
+  height: 841.5px;
+  background-image: url(../images/index_images/INSEC_Energy_bar_5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   -webkit-filter: brightness(0.6);
           filter: brightness(0.6);
-  z-index: -1;
-}
-
-@media (max-width: 767.98px) {
-  .team .team-bg {
-    width: 1280px;
-  }
 }
 
 .team .team-title {
@@ -14183,6 +14194,7 @@ img {
 @media (max-width: 767.98px) {
   .team-content {
     visibility: hidden;
+    display: none !important;
   }
 }
 
