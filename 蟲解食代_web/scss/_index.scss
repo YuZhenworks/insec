@@ -1,0 +1,356 @@
+
+
+.index-banner {
+    #banner-video {
+        width: 100%;
+        height: calc( 100vh - 92px );
+    }
+    .btn-volinc {
+        position: absolute;
+        left: 20%;
+        bottom: 70px;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 255, 0.26);
+        &:hover {
+            transform: scale(0.9);
+        }
+    }
+    @media (max-width: 767.98px) {
+    .btn-volinc {
+        left: 10%;
+        bottom: 185px;
+    }
+ }
+    .hint {
+        font-size: 1.5rem;
+        position: absolute;
+        right: 10%;
+        bottom: 110px;
+        padding: 0.5rem 1rem;
+        border-radius: 35px;
+        background-color: rgba(255, 255, 255, 0.638);
+        visibility: hidden;
+    }
+}
+
+
+.story {
+    margin-top: 100px;
+    margin-bottom: 350px;
+    .mob-story {
+        display: none;
+    }
+    @media (max-width: 767.98px) {
+    .mob-story {
+        display: block;
+    }
+ }
+    .story-title {
+        writing-mode: vertical-lr;
+        font-size: 15rem;
+        font-weight: bold;
+        color: #d0d0d0a6;
+        transform: rotate(180deg);
+    }
+    @media (max-width: 767.98px) { 
+    .story-title {
+        writing-mode: horizontal-tb;
+        font-size: 6.25rem;
+        font-weight: bold;
+        color: #d0d0d0a6;
+        transform: rotate(0);
+        margin-bottom: 2rem;
+    }
+}
+    .story-text {
+        font-family: "Noto Sans";
+        font-weight: bold;
+        font-size: 1rem;
+    }
+    @include media-breakpoint-up(md) {    
+    .story-text {
+        font-family: "Noto Sans";
+        font-weight: bold;
+        font-size: 2rem;
+    }
+}
+}
+@media (max-width: 767.98px) {
+    .web-story {
+        display: none;
+    }
+    .mob-align {
+        align-items: center;
+    }
+    #story-content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+ }
+
+
+.p-content {
+    margin-bottom: 200px;
+    .product-title {
+        position: absolute;
+        top: -220px;
+        left: 0;
+        font-size: 10rem;
+        font-weight: bold;
+        color: #d0d0d0a6;
+    }
+     @media (max-width: 767.98px) {
+        .product-title {
+            top: -160px;
+            left: -550px;
+            font-size: 6.25rem;
+        }
+ }
+    .nutrient {
+        .nutrient-data-p {
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.5rem;
+        }
+        .nutrient-border-Mealworms {
+            border-right: #64BABF solid 1px;
+            height: 80px;
+        }
+        .nutrient-border-Ant {
+            border-right: #C9CC3D solid 1px;
+            height: 80px;
+        }
+        .nutrient-border-Cricket {
+            border-right: #D4729D solid 1px;
+            height: 80px;
+        }
+    }
+    .viewmore {
+        position: absolute;
+        bottom: 30px;
+        right: 80px;
+        width: 110px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.508);
+        z-index: 50;
+    }
+     @media (max-width: 767.98px) {
+        .viewmore {
+            bottom: -30px;
+            right: 40px;
+        }
+ }
+}
+@media (max-width: 767.98px) {
+    .p-content {
+        margin-bottom: 240px;
+    }  
+}
+
+.mob-nutrient {
+    display: none;
+}
+@media (max-width: 767.98px) {
+   .mob-nutrient {
+       display: block;
+       margin-top: 2rem;
+       margin-bottom: 2rem;
+       font-weight: normal;
+       font-family: 'Noto Sans TC', sans-serif;
+   }
+   .web-nutrient {
+       display: none;
+   }
+}
+
+
+
+.team {
+    margin-bottom: 200px;
+    .team-bg {
+        filter: brightness(0.6);
+        z-index: -1;
+    }
+    @media (max-width: 767.98px) {
+        .team-bg {
+            width: 1280px;
+        }
+     }
+    .team-title {
+        position: absolute;
+        top: 30px;
+        font-size: 10rem;
+        font-weight: bold;
+        color: #d0d0d0a6;
+    }
+    @media (max-width: 767.98px) {
+        .team-title {
+            font-size: 6.25rem;
+            padding-left: 2rem;
+        }
+     }
+     .team-line {
+         position: absolute;
+         bottom: 0;
+         width: 100%;
+        }
+}
+@media (max-width: 767.98px) {
+        .team {
+            margin-bottom: 1800px;
+        }
+        .team-line {
+            visibility: hidden;
+        }
+     }
+    
+.team-content {
+        position: absolute;
+        top: 200px;
+        left: 700px;
+        .team-card {
+            position: relative;
+            width: 360px;
+            height: 500px;
+            border-radius: 50px;
+            border: 1px solid #707070;
+            .card-body {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(109, 109, 109, 0.455);
+                backdrop-filter: blur(2px);
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+        }
+        .member1 {
+            background-image: url(../images/index_images/日二技_曾巧慧.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member2 {
+            background-image: url(../images/index_images/日二技_黃若嘉.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member3 {
+            background-image: url(../images/index_images/日二技_張祐禎.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member4 {
+            background-image: url(../images/index_images/日二技_李珈螢.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+}
+ @media (max-width: 767.98px) {
+        .team-content {
+            visibility: hidden;
+        }
+}
+
+.team-content2 {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    visibility: hidden;
+    flex-wrap: wrap;
+    justify-content: center;
+    .team-card {
+            position: relative;
+            width: 360px;
+            height: 500px;
+            border-radius: 50px;
+            border: 1px solid #707070;
+            margin-bottom: 2rem;
+            .card-body {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: rgba(109, 109, 109, 0.455);
+                backdrop-filter: blur(2px);
+                border-bottom-left-radius: 50px;
+                border-bottom-right-radius: 50px;
+            }
+        }
+        .member1 {
+            background-image: url(../images/index_images/日二技_曾巧慧.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member2 {
+            background-image: url(../images/index_images/日二技_黃若嘉.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member3 {
+            background-image: url(../images/index_images/日二技_張祐禎.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .member4 {
+            background-image: url(../images/index_images/日二技_李珈螢.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+}
+ @media (max-width: 767.98px) {
+        .team-content2 {
+            visibility: visible;
+        }
+}
+
+
+
+.new {
+    margin-bottom: 200px;
+    .new-title {
+        font-size: 10rem;
+        font-weight: bold;
+        color: #d0d0d0a6;
+    }
+    @media (max-width: 767.98px) {
+        .new-title {
+            font-size: 6.25rem;
+        }
+     }
+    .news-card {
+        width: 25%;
+        .news-img {
+            width: 300px;
+            height: 250px;
+            object-fit: cover;
+            object-position: center;
+            &:hover {
+               filter: brightness(.5);
+            }
+        }
+    }
+}
+@media (max-width: 767.98px) {
+        .new {
+            .container {
+                flex-wrap: wrap;
+                justify-content: center;
+                .news-card {
+                    width: 70%;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+     }

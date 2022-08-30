@@ -1,0 +1,130 @@
+
+.banner-title {
+    background-image: url(../images/story_images/story_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #00000026;
+    background-blend-mode: soft-light;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.story-content {
+    margin-bottom: 200px;
+    .beginning::before {
+        content: '';
+        position: absolute;
+        background-image: url(../images/story_images/蟋蟀.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        top: -70px;
+        right: 0;
+        z-index: -1;
+    }
+    @include media-breakpoint-up(md) {
+    .beginning::before {
+            content: '';
+            position: absolute;
+            background-image: url(../images/story_images/蟋蟀.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 333px;
+            height: 337px;
+            right: 0;
+            z-index: -1;
+        }
+    }
+    .beginning::after {
+        content: '';
+        position: absolute;
+        background-image: url(../images/story_images/麵包蟲.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 310px;
+        height: 395px;
+        left: -50px;
+        top: 300px;
+        z-index: -1;
+        transform: rotate(0.05turn);
+    }
+    @include media-breakpoint-up(md) {
+    .beginning::after {
+            content: '';
+            position: absolute;
+            background-image: url(../images/story_images/麵包蟲.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 510px;
+            height: 595px;
+            left: 0;
+            top: 300px;
+            z-index: -1;
+            transform: rotate(0.05turn);
+        }
+    }
+}
+
+
+/*story 文字規範*/
+.st-tittle {
+    font-size: 1.75rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    line-height: 1.5;
+    margin-top: 200px;
+}
+
+.st-content {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    line-height: 3rem;
+}
+
+@include media-breakpoint-up(md) {
+    .st-tittle {
+        font-size: 2.5rem;
+        font-weight: bold;
+        letter-spacing: 0.06em;
+        line-height: 1.5;
+        margin-top: 200px;
+    }
+   .st-content {
+        font-size: 1.5rem;
+        font-weight: 400;
+        letter-spacing: 0.06em;
+        line-height: 3.75rem;
+    }    
+}
+
+.data {
+    margin-top: 200px;
+}
+.data::before {
+    content: '';
+    position: absolute;
+    background-image: url(../images/story_images/螞蟻.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 448px;
+    height: 312px;
+    top: calc( 100vh - 400px );
+    left: 40%;
+    z-index: -1;
+}
+@include media-breakpoint-up(md) {
+    .data::before {
+        content: '';
+        position: absolute;
+        background-image: url(../images/story_images/螞蟻.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 648px;
+        height: 512px;
+        top: calc( 100vh - 300px );
+        left: 30%;
+        z-index: -1;
+    }
+}
