@@ -8,6 +8,12 @@
     width: 100%;
     min-height: 100vh;
 }
+@media (max-width: 767.98px) {
+    .banner-title {
+        min-height: 0;
+        height: 600px;
+    }
+ }
 
 .story-content {
     margin-bottom: 200px;

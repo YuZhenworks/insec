@@ -5,6 +5,11 @@
         width: 100%;
         height: calc( 100vh - 92px );
     }
+    @media (max-width: 767.98px) {
+    #banner-video {
+        height: 500px;
+    }
+ }
     .btn-volinc {
         position: absolute;
         left: 20%;
@@ -20,7 +25,7 @@
     @media (max-width: 767.98px) {
     .btn-volinc {
         left: 10%;
-        bottom: 185px;
+        bottom: 160px;
     }
  }
     .hint {

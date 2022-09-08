@@ -3911,8 +3911,8 @@ fieldset:disabled .btn {
 .collapsing {
   height: 0;
   overflow: hidden;
-  -webkit-transition: height 0.35s ease;
-  transition: height 0.35s ease;
+  -webkit-transition: height 0.1s ease;
+  transition: height 0.1s ease;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -13726,6 +13726,13 @@ img {
           animation: fill 2s linear;
 }
 
+@media (max-width: 767.98px) {
+  .loader {
+    position: absolute;
+    left: 48%;
+  }
+}
+
 @-webkit-keyframes fill {
   0% {
     width: 0%;
@@ -13878,6 +13885,12 @@ img {
 }
 
 /*寫在響應斷點裡*/
+@media (max-width: 767.98px) {
+  .navbar-nav {
+    margin-top: 2rem;
+  }
+}
+
 /*footer*/
 .copy-right {
   font-size: 0.875rem;
@@ -13887,6 +13900,12 @@ img {
 .index-banner #banner-video {
   width: 100%;
   height: calc( 100vh - 92px);
+}
+
+@media (max-width: 767.98px) {
+  .index-banner #banner-video {
+    height: 500px;
+  }
 }
 
 .index-banner .btn-volinc {
@@ -13907,7 +13926,7 @@ img {
 @media (max-width: 767.98px) {
   .index-banner .btn-volinc {
     left: 10%;
-    bottom: 185px;
+    bottom: 160px;
   }
 }
 
@@ -14321,6 +14340,13 @@ img {
   background-blend-mode: soft-light;
   width: 100%;
   min-height: 100vh;
+}
+
+@media (max-width: 767.98px) {
+  .banner-title {
+    min-height: 0;
+    height: 600px;
+  }
 }
 
 .story-content {
