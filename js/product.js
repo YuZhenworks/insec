@@ -1,21 +1,4 @@
 
-$(window).on('load', function () {
-    // $('#preloader').css({
-    //     "transform": "translateY(-100%)",
-    //     "transition-delay": "2s"
-    // });
-    $('#preloader').css({
-        "visibility": "hidden",
-        "transition-delay": "2s"
-    });
-    $('.loader').css({
-        "opacity": "0",
-        "transform": "translate(-50%,-100%)",
-        "transition-delay": "2s"
-    });
-});
-/*loading*/
-
 
 const cursor = document.querySelector('.cursor');
 
