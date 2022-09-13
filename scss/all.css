@@ -13874,10 +13874,8 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.navbar-brand {
-  display: block;
+.logo {
   width: 200px;
-  height: 40px;
 }
 
 .navbar-toggler-icon {
