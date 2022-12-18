@@ -14569,7 +14569,6 @@ img {
   .buff-card .buff-card-main {
     position: absolute;
     z-index: -1;
-    width: 370px;
     height: 350px;
   }
 }
